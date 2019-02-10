@@ -1,0 +1,3 @@
+dist/*
+dist/.*
+!dist/Sandscape-commonjs.min.js
