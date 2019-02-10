@@ -9,7 +9,7 @@ function escape(string, charactersToEscape, escapeCharacter = "\\") {
 		throw new Error("Characters to escape must be an array of non-empty strings")
 	if (typeof escapeCharacter != "string" || escapeCharacter.length < 1)
 		throw new Error("Must supply a non-empty string escape character")
-	if (typeof string != "string" || string.length < 1) throw new Error("Must Supply a string to escape")
+	if (typeof string != "string") throw new Error("Must Supply a string to escape")
 	return string.replace(
 		new RegExp("(" + charactersToEscape.map(escapeRegExp).join("|") + ")", "g"),
 		escapeCharacter + "$&"
