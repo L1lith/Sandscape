@@ -1,6 +1,6 @@
 {
 	"name": "sandscape",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Create custom escapings",
 	"main": "dist/Sandscape-commonjs.min.js",
 	"dependencies": {
