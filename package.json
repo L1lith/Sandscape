@@ -28,7 +28,10 @@
 		"strings",
 		"string",
 		"sanitize",
-		"input"
+		"input",
+		"escaping",
+		"secure",
+		"security"
 	],
 	"author": "L1lith",
 	"license": "MIT",
