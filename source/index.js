@@ -1,3 +1,4 @@
 import escape from "./escape"
+import Escaper from "./Escaper"
 
-export { escape }
+export { escape, Escaper }
