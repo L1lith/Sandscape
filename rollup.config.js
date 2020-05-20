@@ -3,7 +3,7 @@ import commonjs from "rollup-plugin-commonjs"
 import requireContext from "rollup-plugin-require-context"
 import { join } from "path"
 import { uglify } from "rollup-plugin-uglify"
-import babel from "rollup-plugin-babel"
+import babel from '@rollup/plugin-babel'
 import deepmerge from "deepmerge"
 
 const baseConfig = {
