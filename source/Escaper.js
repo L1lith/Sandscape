@@ -1,4 +1,5 @@
 import escape from "./escape"
+import unescape from "./unescape"
 
 class Escaper {
 	constructor(charactersToEscape, escapeCharacter = "\\") {
@@ -16,6 +17,9 @@ class Escaper {
 	}
 	escape(string) {
 		return escape(string, this.charactersToEscape, this.escapeCharacter)
+	}
+	unescape(string) {
+		return unescape(string, this.charactersToEscape, this.escapeCharacter)
 	}
 }
 
