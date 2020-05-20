@@ -36,7 +36,10 @@
 		"input",
 		"escaping",
 		"secure",
-		"security"
+		"security",
+		"unescape",
+		"unescaping",
+		"custom"
 	],
 	"author": "L1lith",
 	"license": "MIT",
