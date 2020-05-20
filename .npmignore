@@ -1,7 +1,10 @@
 /dist/*
 /dist/.*
+node_modules/
 !/dist/Sandscape-commonjs.min.js
 /prettier.config.js
 /rollup.config.js
 .eslintrc.js
 /source/*
+.DS_Store
+/test.js
